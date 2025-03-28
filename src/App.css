@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+	scroll-behavior: smooth;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #f472b6; /* Warna Pink */
+	font-size: 18px !important; /* Ukuran lebih kecil */
+	width: 30px !important;
+	height: 30px !important;
+}
+
+/* Custom Navigasi (Bulat dengan Background) */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+	font-size: 18px !important;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
